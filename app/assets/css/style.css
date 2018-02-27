@@ -1,11 +1,28 @@
 .btn {
-    border: 1px solid rgba(197,202,233,1);
+    border: 1px solid rgb(38, 54, 146);
     border-radius: 8px;
-    background: rgba(26,35,126,1);
-    color: rgba(197,202,233,1);
     padding: 8px 16px;
     text-decoration: none;
 }
 .btn:hover{
     background: rgba(48,63,195,1);
+}
+.btn--primary{
+    background: rgba(26,35,126,1);
+    color: rgba(197,202,233,1);
+}
+.btn--secondary{
+    background: rgba(136,14,79,1);
+    color: rgba(244,143,177,1);
+}
+.btn--secondary:hover{
+    background:rgba(194,24,91,1);
+}
+.btn--teriary{
+    background: rgba(26,35,126,1);
+    color: rgba(26,35,126,1);
+}
+.btn--tertiary:hover{
+    background:rgba(48,63,195,1);
+    color:rgba(48,63,195,1))
 }
